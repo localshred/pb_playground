@@ -1,0 +1,13 @@
+PATH
+  remote: /code/src/ruby-protobuf
+  specs:
+    ruby_protobuf (0.4.0.1)
+
+GEM
+  specs:
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  ruby_protobuf!
