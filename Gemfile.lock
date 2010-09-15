@@ -1,13 +1,17 @@
 PATH
-  remote: /code/src/ruby-protobuf
+  remote: /code/src/ruby_protobuf
   specs:
-    ruby_protobuf (0.4.0.1)
+    ruby_protobuf (0.4.0.2)
+      eventmachine
 
 GEM
+  remote: http://rubygems.org/
   specs:
+    eventmachine (0.12.10)
 
 PLATFORMS
   ruby
 
 DEPENDENCIES
+  eventmachine
   ruby_protobuf!
