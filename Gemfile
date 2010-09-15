@@ -1,2 +1,3 @@
 
-gem 'ruby_protobuf', path: '/code/src/ruby-protobuf'
+gem 'eventmachine'
+gem 'ruby_protobuf', path: '/code/src/ruby_protobuf'

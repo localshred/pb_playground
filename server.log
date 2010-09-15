@@ -22,3 +22,362 @@ I, [2010-09-13T01:10:09.869319 #16953]  INFO -- : [C] setting up client
 I, [2010-09-13T01:10:09.869501 #16953]  INFO -- : [C] calling client.find
 E, [2010-09-13T01:10:09.872046 #16953] ERROR -- : Got client controller failure
 E, [2010-09-13T01:10:09.872138 #16953] ERROR -- : Response Error: Connection refused - connect(2) (Errno::ECONNREFUSED) (BAD_REQUEST_DATA)
+I, [2010-09-15T10:35:38.276862 #3944]  INFO -- : [S] Setting up server
+I, [2010-09-15T10:37:27.633915 #3999]  INFO -- : [S] Setting up server
+I, [2010-09-15T10:37:59.387153 #4018]  INFO -- : [S] Setting up server
+I, [2010-09-15T10:38:19.439593 #4043]  INFO -- : [S] Setting up server
+I, [2010-09-15T10:39:02.432453 #4068]  INFO -- : [S] Setting up server
+I, [2010-09-15T10:39:21.139901 #4079]  INFO -- : [C] setting up client request
+I, [2010-09-15T10:39:21.140018 #4079]  INFO -- : [C] calling client.find
+I, [2010-09-15T10:42:43.147539 #4172]  INFO -- : [C] setting up client request
+I, [2010-09-15T10:42:43.147647 #4172]  INFO -- : [C] calling client.find
+I, [2010-09-15T10:43:05.567774 #4190]  INFO -- : [C] setting up client request
+I, [2010-09-15T10:43:05.567885 #4190]  INFO -- : [C] calling client.find
+I, [2010-09-15T10:44:05.972988 #4226]  INFO -- : [C] setting up client request
+I, [2010-09-15T10:44:05.973096 #4226]  INFO -- : [C] calling client.find
+I, [2010-09-15T10:49:04.912095 #4374]  INFO -- : [S] Setting up server
+I, [2010-09-15T10:49:07.947779 #4375]  INFO -- : [C] setting up client request
+I, [2010-09-15T10:49:07.947887 #4375]  INFO -- : [C] calling client.find
+I, [2010-09-15T10:50:16.721637 #4425]  INFO -- : [S] Setting up server
+I, [2010-09-15T10:51:50.834571 #4464]  INFO -- : [C] setting up client request
+I, [2010-09-15T10:51:50.834685 #4464]  INFO -- : [C] calling client.find
+I, [2010-09-15T10:53:22.398522 #4519]  INFO -- : [S] Setting up server at localhost:9939
+I, [2010-09-15T10:53:55.652812 #4537]  INFO -- : [C] setting up client request
+I, [2010-09-15T10:53:55.652925 #4537]  INFO -- : [C] calling client.find to server localhost:9939
+I, [2010-09-15T11:01:56.605960 #4758]  INFO -- : [S] Setting up server at 0.0.0.0:9939
+I, [2010-09-15T11:02:05.241177 #4761]  INFO -- : [C] setting up client request
+I, [2010-09-15T11:02:05.241291 #4761]  INFO -- : [C] calling client.find to server 0.0.0.0:9939
+I, [2010-09-15T11:03:23.672225 #4805]  INFO -- : [C] setting up client request
+I, [2010-09-15T11:03:23.672336 #4805]  INFO -- : [C] calling client.find to server 0.0.0.0:9939
+I, [2010-09-15T11:05:49.075832 #4910]  INFO -- : [C] setting up client request
+I, [2010-09-15T11:05:49.075940 #4910]  INFO -- : [C] calling client.find to server 0.0.0.0:9939
+I, [2010-09-15T11:09:16.677668 #5006]  INFO -- : [C] setting up client request
+I, [2010-09-15T11:09:16.677783 #5006]  INFO -- : [C] calling client.find to server 0.0.0.0:9939
+I, [2010-09-15T11:09:30.644185 #5028]  INFO -- : [S] Setting up server at 0.0.0.0:9939
+I, [2010-09-15T11:09:40.137489 #5031]  INFO -- : [C] setting up client request
+I, [2010-09-15T11:09:40.137602 #5031]  INFO -- : [C] calling client.find to server 0.0.0.0:9939
+I, [2010-09-15T11:11:03.327315 #5082]  INFO -- : [S] Setting up server at 0.0.0.0:9939
+I, [2010-09-15T11:11:08.640899 #5092]  INFO -- : [C] setting up client request
+I, [2010-09-15T11:11:08.641013 #5092]  INFO -- : [C] calling client.find to server 0.0.0.0:9939
+I, [2010-09-15T11:13:26.221541 #5163]  INFO -- : [S] Setting up server at 0.0.0.0:9939
+I, [2010-09-15T11:13:29.693762 #5170]  INFO -- : [C] setting up client request
+I, [2010-09-15T11:13:29.693874 #5170]  INFO -- : [C] calling client.find to server 0.0.0.0:9939
+I, [2010-09-15T11:16:12.067485 #5258]  INFO -- : [S] Setting up server at 0.0.0.0:9939
+I, [2010-09-15T11:16:17.832466 #5259]  INFO -- : [C] setting up client request
+I, [2010-09-15T11:16:17.832581 #5259]  INFO -- : [C] calling client.find to server 0.0.0.0:9939
+E, [2010-09-15T11:16:17.838501 #5259] ERROR -- : Error happened when calling user service client find method
+E, [2010-09-15T11:16:17.839588 #5259] ERROR -- : undefined method `failed' for #<#<Class:0x00000100b2f380>:0x00000100b2ede0>
+E, [2010-09-15T11:16:17.839639 #5259] ERROR -- : /code/src/ruby_protobuf/lib/protobuf/rpc/client.rb:76:in `block (2 levels) in call_rpc'
+/Users/bj/.rvm/gems/ruby-1.9.2-p0/gems/eventmachine-0.12.10/lib/eventmachine.rb:256:in `call'
+/Users/bj/.rvm/gems/ruby-1.9.2-p0/gems/eventmachine-0.12.10/lib/eventmachine.rb:256:in `run_machine'
+/Users/bj/.rvm/gems/ruby-1.9.2-p0/gems/eventmachine-0.12.10/lib/eventmachine.rb:256:in `run'
+/code/src/ruby_protobuf/lib/protobuf/rpc/client.rb:60:in `call_rpc'
+/code/src/ruby_protobuf/lib/protobuf/rpc/client.rb:30:in `method_missing'
+user_client.rb:18:in `<main>'
+I, [2010-09-15T11:18:15.173876 #5329]  INFO -- : [S] Setting up server at 0.0.0.0:9939
+I, [2010-09-15T11:18:18.354211 #5331]  INFO -- : [C] setting up client request
+I, [2010-09-15T11:18:18.354324 #5331]  INFO -- : [C] calling client.find to server 0.0.0.0:9939
+E, [2010-09-15T11:18:18.359892 #5331] ERROR -- : Got client controller failure
+E, [2010-09-15T11:18:18.360023 #5331] ERROR -- : Error happened when calling user service client find method
+E, [2010-09-15T11:18:18.360069 #5331] ERROR -- : undefined local variable or method `controller' for main:Object
+E, [2010-09-15T11:18:18.360105 #5331] ERROR -- : user_client.rb:21:in `block in <main>'
+/code/src/ruby_protobuf/lib/protobuf/rpc/client.rb:88:in `call'
+/code/src/ruby_protobuf/lib/protobuf/rpc/client.rb:88:in `block (3 levels) in call_rpc'
+/Users/bj/.rvm/gems/ruby-1.9.2-p0/gems/eventmachine-0.12.10/lib/em/deferrable.rb:141:in `call'
+/Users/bj/.rvm/gems/ruby-1.9.2-p0/gems/eventmachine-0.12.10/lib/em/deferrable.rb:141:in `set_deferred_status'
+/Users/bj/.rvm/gems/ruby-1.9.2-p0/gems/eventmachine-0.12.10/lib/em/deferrable.rb:180:in `fail'
+/code/src/ruby_protobuf/lib/protobuf/rpc/client.rb:76:in `block (2 levels) in call_rpc'
+/Users/bj/.rvm/gems/ruby-1.9.2-p0/gems/eventmachine-0.12.10/lib/eventmachine.rb:256:in `call'
+/Users/bj/.rvm/gems/ruby-1.9.2-p0/gems/eventmachine-0.12.10/lib/eventmachine.rb:256:in `run_machine'
+/Users/bj/.rvm/gems/ruby-1.9.2-p0/gems/eventmachine-0.12.10/lib/eventmachine.rb:256:in `run'
+/code/src/ruby_protobuf/lib/protobuf/rpc/client.rb:60:in `call_rpc'
+/code/src/ruby_protobuf/lib/protobuf/rpc/client.rb:30:in `method_missing'
+user_client.rb:18:in `<main>'
+I, [2010-09-15T11:19:20.120201 #5373]  INFO -- : [S] Setting up server at 0.0.0.0:9939
+I, [2010-09-15T11:19:33.579902 #5376]  INFO -- : [C] setting up client request
+I, [2010-09-15T11:19:33.580015 #5376]  INFO -- : [C] calling client.find to server 0.0.0.0:9939
+E, [2010-09-15T11:19:33.585924 #5376] ERROR -- : Got client controller failure
+E, [2010-09-15T11:19:33.586073 #5376] ERROR -- : Error happened when calling user service client find method
+E, [2010-09-15T11:19:33.586122 #5376] ERROR -- : undefined local variable or method `controller' for main:Object
+E, [2010-09-15T11:19:33.586158 #5376] ERROR -- : user_client.rb:21:in `block in <main>'
+/code/src/ruby_protobuf/lib/protobuf/rpc/client.rb:88:in `call'
+/code/src/ruby_protobuf/lib/protobuf/rpc/client.rb:88:in `block (3 levels) in call_rpc'
+/Users/bj/.rvm/gems/ruby-1.9.2-p0/gems/eventmachine-0.12.10/lib/em/deferrable.rb:141:in `call'
+/Users/bj/.rvm/gems/ruby-1.9.2-p0/gems/eventmachine-0.12.10/lib/em/deferrable.rb:141:in `set_deferred_status'
+/Users/bj/.rvm/gems/ruby-1.9.2-p0/gems/eventmachine-0.12.10/lib/em/deferrable.rb:180:in `fail'
+/code/src/ruby_protobuf/lib/protobuf/rpc/client.rb:76:in `block (2 levels) in call_rpc'
+/Users/bj/.rvm/gems/ruby-1.9.2-p0/gems/eventmachine-0.12.10/lib/eventmachine.rb:256:in `call'
+/Users/bj/.rvm/gems/ruby-1.9.2-p0/gems/eventmachine-0.12.10/lib/eventmachine.rb:256:in `run_machine'
+/Users/bj/.rvm/gems/ruby-1.9.2-p0/gems/eventmachine-0.12.10/lib/eventmachine.rb:256:in `run'
+/code/src/ruby_protobuf/lib/protobuf/rpc/client.rb:60:in `call_rpc'
+/code/src/ruby_protobuf/lib/protobuf/rpc/client.rb:30:in `method_missing'
+user_client.rb:18:in `<main>'
+I, [2010-09-15T12:17:19.187961 #6934]  INFO -- : [S] Setting up server at 0.0.0.0:9939
+I, [2010-09-15T12:17:33.100903 #6937]  INFO -- : [C] setting up client request
+I, [2010-09-15T12:17:33.101015 #6937]  INFO -- : [C] calling client.find to server 0.0.0.0:9939
+E, [2010-09-15T12:17:33.106888 #6937] ERROR -- : Got client controller failure
+E, [2010-09-15T12:17:33.107016 #6937] ERROR -- : Error happened when calling user service client find method
+E, [2010-09-15T12:17:33.107064 #6937] ERROR -- : undefined local variable or method `controller' for main:Object
+E, [2010-09-15T12:17:33.107097 #6937] ERROR -- : user_client.rb:21:in `block in <main>'
+/code/src/ruby_protobuf/lib/protobuf/rpc/client.rb:88:in `call'
+/code/src/ruby_protobuf/lib/protobuf/rpc/client.rb:88:in `block (3 levels) in call_rpc'
+/Users/bj/.rvm/gems/ruby-1.9.2-p0/gems/eventmachine-0.12.10/lib/em/deferrable.rb:141:in `call'
+/Users/bj/.rvm/gems/ruby-1.9.2-p0/gems/eventmachine-0.12.10/lib/em/deferrable.rb:141:in `set_deferred_status'
+/Users/bj/.rvm/gems/ruby-1.9.2-p0/gems/eventmachine-0.12.10/lib/em/deferrable.rb:180:in `fail'
+/code/src/ruby_protobuf/lib/protobuf/rpc/client.rb:76:in `block (2 levels) in call_rpc'
+/Users/bj/.rvm/gems/ruby-1.9.2-p0/gems/eventmachine-0.12.10/lib/eventmachine.rb:256:in `call'
+/Users/bj/.rvm/gems/ruby-1.9.2-p0/gems/eventmachine-0.12.10/lib/eventmachine.rb:256:in `run_machine'
+/Users/bj/.rvm/gems/ruby-1.9.2-p0/gems/eventmachine-0.12.10/lib/eventmachine.rb:256:in `run'
+/code/src/ruby_protobuf/lib/protobuf/rpc/client.rb:60:in `call_rpc'
+/code/src/ruby_protobuf/lib/protobuf/rpc/client.rb:30:in `method_missing'
+user_client.rb:18:in `<main>'
+I, [2010-09-15T12:18:25.709858 #6964]  INFO -- : [C] setting up client request
+I, [2010-09-15T12:18:25.709971 #6964]  INFO -- : [C] calling client.find to server 0.0.0.0:9939
+E, [2010-09-15T12:18:25.713875 #6964] ERROR -- : Got client controller failure
+E, [2010-09-15T12:18:25.713997 #6964] ERROR -- : Error happened when calling user service client find method
+E, [2010-09-15T12:18:25.714045 #6964] ERROR -- : undefined local variable or method `controller' for main:Object
+E, [2010-09-15T12:18:25.714084 #6964] ERROR -- : user_client.rb:21:in `block in <main>'
+/code/src/ruby_protobuf/lib/protobuf/rpc/client.rb:88:in `call'
+/code/src/ruby_protobuf/lib/protobuf/rpc/client.rb:88:in `block (3 levels) in call_rpc'
+/Users/bj/.rvm/gems/ruby-1.9.2-p0/gems/eventmachine-0.12.10/lib/em/deferrable.rb:141:in `call'
+/Users/bj/.rvm/gems/ruby-1.9.2-p0/gems/eventmachine-0.12.10/lib/em/deferrable.rb:141:in `set_deferred_status'
+/Users/bj/.rvm/gems/ruby-1.9.2-p0/gems/eventmachine-0.12.10/lib/em/deferrable.rb:180:in `fail'
+/code/src/ruby_protobuf/lib/protobuf/rpc/client.rb:76:in `block (2 levels) in call_rpc'
+/Users/bj/.rvm/gems/ruby-1.9.2-p0/gems/eventmachine-0.12.10/lib/eventmachine.rb:256:in `call'
+/Users/bj/.rvm/gems/ruby-1.9.2-p0/gems/eventmachine-0.12.10/lib/eventmachine.rb:256:in `run_machine'
+/Users/bj/.rvm/gems/ruby-1.9.2-p0/gems/eventmachine-0.12.10/lib/eventmachine.rb:256:in `run'
+/code/src/ruby_protobuf/lib/protobuf/rpc/client.rb:60:in `call_rpc'
+/code/src/ruby_protobuf/lib/protobuf/rpc/client.rb:30:in `method_missing'
+user_client.rb:18:in `<main>'
+I, [2010-09-15T12:18:41.141525 #6980]  INFO -- : [C] setting up client request
+I, [2010-09-15T12:18:41.141650 #6980]  INFO -- : [C] calling client.find to server 0.0.0.0:9939
+E, [2010-09-15T12:18:41.145628 #6980] ERROR -- : Got client controller failure
+E, [2010-09-15T12:18:41.145755 #6980] ERROR -- : Error happened when calling user service client find method
+E, [2010-09-15T12:18:41.145804 #6980] ERROR -- : undefined local variable or method `controller' for main:Object
+E, [2010-09-15T12:18:41.145840 #6980] ERROR -- : user_client.rb:21:in `block in <main>'
+/code/src/ruby_protobuf/lib/protobuf/rpc/client.rb:88:in `call'
+/code/src/ruby_protobuf/lib/protobuf/rpc/client.rb:88:in `block (3 levels) in call_rpc'
+/Users/bj/.rvm/gems/ruby-1.9.2-p0/gems/eventmachine-0.12.10/lib/em/deferrable.rb:141:in `call'
+/Users/bj/.rvm/gems/ruby-1.9.2-p0/gems/eventmachine-0.12.10/lib/em/deferrable.rb:141:in `set_deferred_status'
+/Users/bj/.rvm/gems/ruby-1.9.2-p0/gems/eventmachine-0.12.10/lib/em/deferrable.rb:180:in `fail'
+/code/src/ruby_protobuf/lib/protobuf/rpc/client.rb:76:in `block (2 levels) in call_rpc'
+/Users/bj/.rvm/gems/ruby-1.9.2-p0/gems/eventmachine-0.12.10/lib/eventmachine.rb:256:in `call'
+/Users/bj/.rvm/gems/ruby-1.9.2-p0/gems/eventmachine-0.12.10/lib/eventmachine.rb:256:in `run_machine'
+/Users/bj/.rvm/gems/ruby-1.9.2-p0/gems/eventmachine-0.12.10/lib/eventmachine.rb:256:in `run'
+/code/src/ruby_protobuf/lib/protobuf/rpc/client.rb:60:in `call_rpc'
+/code/src/ruby_protobuf/lib/protobuf/rpc/client.rb:30:in `method_missing'
+user_client.rb:18:in `<main>'
+I, [2010-09-15T12:20:34.714387 #7044]  INFO -- : [C] setting up client request
+I, [2010-09-15T12:20:34.714500 #7044]  INFO -- : [C] calling client.find to server 0.0.0.0:9939
+E, [2010-09-15T12:20:34.718453 #7044] ERROR -- : Got client controller failure
+E, [2010-09-15T12:20:34.718576 #7044] ERROR -- : Error happened when calling user service client find method
+E, [2010-09-15T12:20:34.718623 #7044] ERROR -- : undefined local variable or method `controller' for main:Object
+E, [2010-09-15T12:20:34.718657 #7044] ERROR -- : user_client.rb:21:in `block in <main>'
+/code/src/ruby_protobuf/lib/protobuf/rpc/client.rb:88:in `call'
+/code/src/ruby_protobuf/lib/protobuf/rpc/client.rb:88:in `block (3 levels) in call_rpc'
+/Users/bj/.rvm/gems/ruby-1.9.2-p0/gems/eventmachine-0.12.10/lib/em/deferrable.rb:141:in `call'
+/Users/bj/.rvm/gems/ruby-1.9.2-p0/gems/eventmachine-0.12.10/lib/em/deferrable.rb:141:in `set_deferred_status'
+/Users/bj/.rvm/gems/ruby-1.9.2-p0/gems/eventmachine-0.12.10/lib/em/deferrable.rb:180:in `fail'
+/code/src/ruby_protobuf/lib/protobuf/rpc/client.rb:76:in `block (2 levels) in call_rpc'
+/Users/bj/.rvm/gems/ruby-1.9.2-p0/gems/eventmachine-0.12.10/lib/eventmachine.rb:256:in `call'
+/Users/bj/.rvm/gems/ruby-1.9.2-p0/gems/eventmachine-0.12.10/lib/eventmachine.rb:256:in `run_machine'
+/Users/bj/.rvm/gems/ruby-1.9.2-p0/gems/eventmachine-0.12.10/lib/eventmachine.rb:256:in `run'
+/code/src/ruby_protobuf/lib/protobuf/rpc/client.rb:60:in `call_rpc'
+/code/src/ruby_protobuf/lib/protobuf/rpc/client.rb:30:in `method_missing'
+user_client.rb:18:in `<main>'
+I, [2010-09-15T12:21:24.700236 #7071]  INFO -- : [C] setting up client request
+I, [2010-09-15T12:21:24.700362 #7071]  INFO -- : [C] calling client.find to server 0.0.0.0:9939
+E, [2010-09-15T12:21:24.704126 #7071] ERROR -- : Got client controller failure
+E, [2010-09-15T12:21:24.704252 #7071] ERROR -- : Error happened when calling user service client find method
+E, [2010-09-15T12:21:24.704298 #7071] ERROR -- : undefined local variable or method `controller' for main:Object
+E, [2010-09-15T12:21:24.704333 #7071] ERROR -- : user_client.rb:21:in `block in <main>'
+/code/src/ruby_protobuf/lib/protobuf/rpc/client.rb:88:in `call'
+/code/src/ruby_protobuf/lib/protobuf/rpc/client.rb:88:in `block (3 levels) in call_rpc'
+/Users/bj/.rvm/gems/ruby-1.9.2-p0/gems/eventmachine-0.12.10/lib/em/deferrable.rb:141:in `call'
+/Users/bj/.rvm/gems/ruby-1.9.2-p0/gems/eventmachine-0.12.10/lib/em/deferrable.rb:141:in `set_deferred_status'
+/Users/bj/.rvm/gems/ruby-1.9.2-p0/gems/eventmachine-0.12.10/lib/em/deferrable.rb:180:in `fail'
+/code/src/ruby_protobuf/lib/protobuf/rpc/client.rb:76:in `block (2 levels) in call_rpc'
+/Users/bj/.rvm/gems/ruby-1.9.2-p0/gems/eventmachine-0.12.10/lib/eventmachine.rb:256:in `call'
+/Users/bj/.rvm/gems/ruby-1.9.2-p0/gems/eventmachine-0.12.10/lib/eventmachine.rb:256:in `run_machine'
+/Users/bj/.rvm/gems/ruby-1.9.2-p0/gems/eventmachine-0.12.10/lib/eventmachine.rb:256:in `run'
+/code/src/ruby_protobuf/lib/protobuf/rpc/client.rb:60:in `call_rpc'
+/code/src/ruby_protobuf/lib/protobuf/rpc/client.rb:30:in `method_missing'
+user_client.rb:18:in `<main>'
+I, [2010-09-15T12:26:58.951614 #7231]  INFO -- : [C] setting up client request
+I, [2010-09-15T12:26:58.951732 #7231]  INFO -- : [C] calling client.find to server 0.0.0.0:9939
+E, [2010-09-15T12:26:58.967063 #7231] ERROR -- : Got client controller failure
+E, [2010-09-15T12:26:58.967219 #7231] ERROR -- : Error happened when calling user service client find method
+E, [2010-09-15T12:26:58.967268 #7231] ERROR -- : undefined local variable or method `controller' for main:Object
+E, [2010-09-15T12:26:58.967305 #7231] ERROR -- : user_client.rb:21:in `block in <main>'
+/code/src/ruby_protobuf/lib/protobuf/rpc/client.rb:88:in `call'
+/code/src/ruby_protobuf/lib/protobuf/rpc/client.rb:88:in `block (3 levels) in call_rpc'
+/Users/bj/.rvm/gems/ruby-1.9.2-p0/gems/eventmachine-0.12.10/lib/em/deferrable.rb:141:in `call'
+/Users/bj/.rvm/gems/ruby-1.9.2-p0/gems/eventmachine-0.12.10/lib/em/deferrable.rb:141:in `set_deferred_status'
+/Users/bj/.rvm/gems/ruby-1.9.2-p0/gems/eventmachine-0.12.10/lib/em/deferrable.rb:180:in `fail'
+/code/src/ruby_protobuf/lib/protobuf/rpc/client.rb:76:in `block (2 levels) in call_rpc'
+/Users/bj/.rvm/gems/ruby-1.9.2-p0/gems/eventmachine-0.12.10/lib/eventmachine.rb:256:in `call'
+/Users/bj/.rvm/gems/ruby-1.9.2-p0/gems/eventmachine-0.12.10/lib/eventmachine.rb:256:in `run_machine'
+/Users/bj/.rvm/gems/ruby-1.9.2-p0/gems/eventmachine-0.12.10/lib/eventmachine.rb:256:in `run'
+/code/src/ruby_protobuf/lib/protobuf/rpc/client.rb:60:in `call_rpc'
+/code/src/ruby_protobuf/lib/protobuf/rpc/client.rb:30:in `method_missing'
+user_client.rb:18:in `<main>'
+I, [2010-09-15T12:28:45.012558 #7281]  INFO -- : [C] setting up client request
+I, [2010-09-15T12:28:45.012675 #7281]  INFO -- : [C] calling client.find to server 0.0.0.0:9939
+E, [2010-09-15T12:28:45.014979 #7281] ERROR -- : Got client controller failure
+E, [2010-09-15T12:28:45.016978 #7281] ERROR -- : Got client controller failure
+E, [2010-09-15T12:28:45.017111 #7281] ERROR -- : Error happened when calling user service client find method
+E, [2010-09-15T12:28:45.017163 #7281] ERROR -- : undefined local variable or method `controller' for main:Object
+E, [2010-09-15T12:28:45.017199 #7281] ERROR -- : user_client.rb:21:in `block in <main>'
+/code/src/ruby_protobuf/lib/protobuf/rpc/client.rb:88:in `call'
+/code/src/ruby_protobuf/lib/protobuf/rpc/client.rb:88:in `block (3 levels) in call_rpc'
+/Users/bj/.rvm/gems/ruby-1.9.2-p0/gems/eventmachine-0.12.10/lib/em/deferrable.rb:141:in `call'
+/Users/bj/.rvm/gems/ruby-1.9.2-p0/gems/eventmachine-0.12.10/lib/em/deferrable.rb:141:in `set_deferred_status'
+/Users/bj/.rvm/gems/ruby-1.9.2-p0/gems/eventmachine-0.12.10/lib/em/deferrable.rb:180:in `fail'
+/code/src/ruby_protobuf/lib/protobuf/rpc/client.rb:76:in `block (2 levels) in call_rpc'
+/Users/bj/.rvm/gems/ruby-1.9.2-p0/gems/eventmachine-0.12.10/lib/eventmachine.rb:256:in `call'
+/Users/bj/.rvm/gems/ruby-1.9.2-p0/gems/eventmachine-0.12.10/lib/eventmachine.rb:256:in `run_machine'
+/Users/bj/.rvm/gems/ruby-1.9.2-p0/gems/eventmachine-0.12.10/lib/eventmachine.rb:256:in `run'
+/code/src/ruby_protobuf/lib/protobuf/rpc/client.rb:60:in `call_rpc'
+/code/src/ruby_protobuf/lib/protobuf/rpc/client.rb:30:in `method_missing'
+user_client.rb:18:in `<main>'
+I, [2010-09-15T12:30:54.804142 #7354]  INFO -- : [S] Setting up server at 0.0.0.0:9939
+I, [2010-09-15T12:31:00.449586 #7362]  INFO -- : [C] setting up client request
+I, [2010-09-15T12:31:00.449702 #7362]  INFO -- : [C] calling client.find to server 0.0.0.0:9939
+E, [2010-09-15T12:31:00.454062 #7362] ERROR -- : Got client controller failure
+E, [2010-09-15T12:31:00.456081 #7362] ERROR -- : Got client controller failure
+E, [2010-09-15T12:31:00.456202 #7362] ERROR -- : Error happened when calling user service client find method
+E, [2010-09-15T12:31:00.456248 #7362] ERROR -- : undefined local variable or method `controller' for main:Object
+E, [2010-09-15T12:31:00.456284 #7362] ERROR -- : user_client.rb:21:in `block in <main>'
+/code/src/ruby_protobuf/lib/protobuf/rpc/client.rb:88:in `call'
+/code/src/ruby_protobuf/lib/protobuf/rpc/client.rb:88:in `block (3 levels) in call_rpc'
+/Users/bj/.rvm/gems/ruby-1.9.2-p0/gems/eventmachine-0.12.10/lib/em/deferrable.rb:141:in `call'
+/Users/bj/.rvm/gems/ruby-1.9.2-p0/gems/eventmachine-0.12.10/lib/em/deferrable.rb:141:in `set_deferred_status'
+/Users/bj/.rvm/gems/ruby-1.9.2-p0/gems/eventmachine-0.12.10/lib/em/deferrable.rb:180:in `fail'
+/code/src/ruby_protobuf/lib/protobuf/rpc/client.rb:76:in `block (2 levels) in call_rpc'
+/Users/bj/.rvm/gems/ruby-1.9.2-p0/gems/eventmachine-0.12.10/lib/eventmachine.rb:256:in `call'
+/Users/bj/.rvm/gems/ruby-1.9.2-p0/gems/eventmachine-0.12.10/lib/eventmachine.rb:256:in `run_machine'
+/Users/bj/.rvm/gems/ruby-1.9.2-p0/gems/eventmachine-0.12.10/lib/eventmachine.rb:256:in `run'
+/code/src/ruby_protobuf/lib/protobuf/rpc/client.rb:60:in `call_rpc'
+/code/src/ruby_protobuf/lib/protobuf/rpc/client.rb:30:in `method_missing'
+user_client.rb:18:in `<main>'
+I, [2010-09-15T12:31:59.023438 #7400]  INFO -- : [C] setting up client request
+I, [2010-09-15T12:31:59.023553 #7400]  INFO -- : [C] calling client.find to server 0.0.0.0:9939
+E, [2010-09-15T12:31:59.025756 #7400] ERROR -- : Got client failure
+E, [2010-09-15T12:31:59.025804 #7400] ERROR -- : Response Error [0]: Unable to parse request: undefined method `eof?' for #<String:0x000001009cc1f0>
+I, [2010-09-15T12:33:37.092696 #7454]  INFO -- : [C] setting up client request
+I, [2010-09-15T12:33:37.092810 #7454]  INFO -- : [C] calling client.find to server 0.0.0.0:9939
+E, [2010-09-15T12:33:37.094941 #7454] ERROR -- : Got client failure
+E, [2010-09-15T12:33:37.094989 #7454] ERROR -- : Response Error [0]: Unable to parse request: undefined method `eof?' for #<String:0x000001009a0af0>
+I, [2010-09-15T12:38:54.833258 #7615]  INFO -- : [S] Setting up server at 0.0.0.0:9939
+I, [2010-09-15T12:38:59.546375 #7617]  INFO -- : [C] setting up client request
+I, [2010-09-15T12:38:59.546492 #7617]  INFO -- : [C] calling client.find to server 0.0.0.0:9939
+E, [2010-09-15T12:38:59.551083 #7617] ERROR -- : Got client failure
+E, [2010-09-15T12:38:59.551134 #7617] ERROR -- : Response Error [0]: Unable to parse request: undefined method `eof?' for #<String:0x00000100a7dc48>
+I, [2010-09-15T12:39:27.411770 #7640]  INFO -- : [C] setting up client request
+I, [2010-09-15T12:39:27.411884 #7640]  INFO -- : [C] calling client.find to server 0.0.0.0:9939
+E, [2010-09-15T12:39:27.414100 #7640] ERROR -- : Got client failure
+E, [2010-09-15T12:39:27.414164 #7640] ERROR -- : Response Error [BAD_REQUEST_DATA]: Unable to parse request: undefined method `eof?' for #<String:0x000001009b8fb0>
+I, [2010-09-15T12:39:51.820412 #7657]  INFO -- : [C] setting up client request
+I, [2010-09-15T12:39:51.820524 #7657]  INFO -- : [C] calling client.find to server 0.0.0.0:9939
+E, [2010-09-15T12:39:51.822829 #7657] ERROR -- : Got client failure
+E, [2010-09-15T12:39:51.822898 #7657] ERROR -- : Response Error [BAD_REQUEST_DATA]: Unable to parse request: undefined method `eof?' for #<String:0x000001009a05c8>
+I, [2010-09-15T12:39:57.177867 #7670]  INFO -- : [S] Setting up server at 0.0.0.0:9939
+I, [2010-09-15T12:40:03.722656 #7672]  INFO -- : [C] setting up client request
+I, [2010-09-15T12:40:03.722789 #7672]  INFO -- : [C] calling client.find to server 0.0.0.0:9939
+E, [2010-09-15T12:40:03.727491 #7672] ERROR -- : Got client failure
+E, [2010-09-15T12:40:03.727559 #7672] ERROR -- : Response Error [RPC_ERROR]: undefined local variable or method `request' for #<Protobuf::Rpc::Server:0x00000100aaeb68>
+I, [2010-09-15T12:40:45.316655 #7705]  INFO -- : [S] Setting up server at 0.0.0.0:9939
+I, [2010-09-15T12:40:48.398885 #7706]  INFO -- : [C] setting up client request
+I, [2010-09-15T12:40:48.398997 #7706]  INFO -- : [C] calling client.find to server 0.0.0.0:9939
+E, [2010-09-15T12:40:48.401983 #7706] ERROR -- : Got client failure
+E, [2010-09-15T12:40:48.402051 #7706] ERROR -- : Response Error [RPC_ERROR]: undefined method `find' for Proto::UserService:Class
+I, [2010-09-15T12:41:55.133448 #7753]  INFO -- : [S] Setting up server at 0.0.0.0:9939
+I, [2010-09-15T12:41:59.966213 #7761]  INFO -- : [C] setting up client request
+I, [2010-09-15T12:41:59.966327 #7761]  INFO -- : [C] calling client.find to server 0.0.0.0:9939
+E, [2010-09-15T12:41:59.971145 #7761] ERROR -- : Got client failure
+E, [2010-09-15T12:41:59.971210 #7761] ERROR -- : Response Error [RPC_ERROR]: An error occurred while calling the service method:  wrong number of arguments (1 for 0)
+I, [2010-09-15T12:43:14.648196 #7805]  INFO -- : [S] Setting up server at 0.0.0.0:9939
+I, [2010-09-15T12:43:17.788404 #7806]  INFO -- : [C] setting up client request
+I, [2010-09-15T12:43:17.788515 #7806]  INFO -- : [C] calling client.find to server 0.0.0.0:9939
+E, [2010-09-15T12:43:17.793475 #7806] ERROR -- : Got client failure
+E, [2010-09-15T12:43:17.793542 #7806] ERROR -- : Response Error [RPC_ERROR]: An error occurred while calling the service method:  wrong number of arguments (1 for 0)
+I, [2010-09-15T12:46:31.708012 #7906]  INFO -- : [S] Setting up server at 0.0.0.0:9939
+I, [2010-09-15T12:46:36.591639 #7907]  INFO -- : [C] setting up client request
+I, [2010-09-15T12:46:36.591752 #7907]  INFO -- : [C] calling client.find to server 0.0.0.0:9939
+E, [2010-09-15T12:46:36.596747 #7907] ERROR -- : Got client failure
+E, [2010-09-15T12:46:36.596817 #7907] ERROR -- : Response Error [RPC_ERROR]: Unable to call service method find: wrong number of arguments (1 for 0)
+I, [2010-09-15T12:48:13.122795 #7970]  INFO -- : [S] Setting up server at 0.0.0.0:9939
+I, [2010-09-15T12:48:21.402017 #7972]  INFO -- : [C] setting up client request
+I, [2010-09-15T12:48:21.402132 #7972]  INFO -- : [C] calling client.find to server 0.0.0.0:9939
+I, [2010-09-15T12:48:21.404478 #7970]  INFO -- : [S] in Proto::UserService#find
+I, [2010-09-15T12:48:21.405765 #7972]  INFO -- : Got client OK response
+I, [2010-09-15T12:48:21.405808 #7972]  INFO -- : user.guid = USER_GUID_1
+I, [2010-09-15T12:48:21.405840 #7972]  INFO -- : user.guid = USER_GUID_2
+I, [2010-09-15T12:48:21.405870 #7972]  INFO -- : user.guid = USER_GUID_3
+I, [2010-09-15T12:48:21.405902 #7972]  INFO -- : user.guid = USER_GUID_4
+I, [2010-09-15T12:48:21.405932 #7972]  INFO -- : user.guid = USER_GUID_5
+I, [2010-09-15T14:39:47.286833 #11011]  INFO -- : [S] Setting up server at 0.0.0.0:9939
+I, [2010-09-15T14:39:52.451917 #11013]  INFO -- : [C] setting up client request
+I, [2010-09-15T14:39:52.452029 #11013]  INFO -- : [C] calling client.find to server 0.0.0.0:9939
+E, [2010-09-15T14:39:52.452385 #11013] ERROR -- : Error happened when calling user service client find method
+E, [2010-09-15T14:39:52.452580 #11013] ERROR -- : undefined method `ClientConnection' for #<Protobuf::Rpc::Client:0x00000101aaa288>
+E, [2010-09-15T14:39:52.452621 #11013] ERROR -- : /code/src/ruby_protobuf/lib/protobuf/rpc/client.rb:23:in `method_missing'
+/code/src/ruby_protobuf/lib/protobuf/rpc/client.rb:69:in `block in call_rpc'
+/Users/bj/.rvm/gems/ruby-1.9.2-p0/gems/eventmachine-0.12.10/lib/eventmachine.rb:256:in `call'
+/Users/bj/.rvm/gems/ruby-1.9.2-p0/gems/eventmachine-0.12.10/lib/eventmachine.rb:256:in `run_machine'
+/Users/bj/.rvm/gems/ruby-1.9.2-p0/gems/eventmachine-0.12.10/lib/eventmachine.rb:256:in `run'
+/code/src/ruby_protobuf/lib/protobuf/rpc/client.rb:55:in `call_rpc'
+/code/src/ruby_protobuf/lib/protobuf/rpc/client.rb:28:in `method_missing'
+user_client.rb:18:in `<main>'
+I, [2010-09-15T14:41:49.037078 #11070]  INFO -- : [C] setting up client request
+I, [2010-09-15T14:41:49.037194 #11070]  INFO -- : [C] calling client.find to server 0.0.0.0:9939
+E, [2010-09-15T14:41:49.037632 #11070] ERROR -- : Error happened when calling user service client find method
+E, [2010-09-15T14:41:49.037822 #11070] ERROR -- : undefined method `ClientConnection' for #<Protobuf::Rpc::Client:0x00000100bdaf28>
+E, [2010-09-15T14:41:49.037866 #11070] ERROR -- : /code/src/ruby_protobuf/lib/protobuf/rpc/client.rb:25:in `method_missing'
+/code/src/ruby_protobuf/lib/protobuf/rpc/client.rb:71:in `block in call_rpc'
+/Users/bj/.rvm/gems/ruby-1.9.2-p0/gems/eventmachine-0.12.10/lib/eventmachine.rb:256:in `call'
+/Users/bj/.rvm/gems/ruby-1.9.2-p0/gems/eventmachine-0.12.10/lib/eventmachine.rb:256:in `run_machine'
+/Users/bj/.rvm/gems/ruby-1.9.2-p0/gems/eventmachine-0.12.10/lib/eventmachine.rb:256:in `run'
+/code/src/ruby_protobuf/lib/protobuf/rpc/client.rb:57:in `call_rpc'
+/code/src/ruby_protobuf/lib/protobuf/rpc/client.rb:30:in `method_missing'
+user_client.rb:18:in `<main>'
+I, [2010-09-15T14:42:38.813268 #11099]  INFO -- : [C] setting up client request
+I, [2010-09-15T14:42:38.813382 #11099]  INFO -- : [C] calling client.find to server 0.0.0.0:9939
+E, [2010-09-15T14:42:38.813840 #11099] ERROR -- : Error happened when calling user service client find method
+E, [2010-09-15T14:42:38.814036 #11099] ERROR -- : undefined method `ClientConnection' for #<Protobuf::Rpc::Client:0x000001022ac8a0>
+E, [2010-09-15T14:42:38.814080 #11099] ERROR -- : /code/src/ruby_protobuf/lib/protobuf/rpc/client.rb:26:in `method_missing'
+/code/src/ruby_protobuf/lib/protobuf/rpc/client.rb:72:in `block in call_rpc'
+/Users/bj/.rvm/gems/ruby-1.9.2-p0/gems/eventmachine-0.12.10/lib/eventmachine.rb:256:in `call'
+/Users/bj/.rvm/gems/ruby-1.9.2-p0/gems/eventmachine-0.12.10/lib/eventmachine.rb:256:in `run_machine'
+/Users/bj/.rvm/gems/ruby-1.9.2-p0/gems/eventmachine-0.12.10/lib/eventmachine.rb:256:in `run'
+/code/src/ruby_protobuf/lib/protobuf/rpc/client.rb:58:in `call_rpc'
+/code/src/ruby_protobuf/lib/protobuf/rpc/client.rb:31:in `method_missing'
+user_client.rb:18:in `<main>'
+I, [2010-09-15T14:45:17.183949 #11190]  INFO -- : [S] Setting up server at 0.0.0.0:9939
+I, [2010-09-15T14:45:18.962484 #11192]  INFO -- : [C] setting up client request
+I, [2010-09-15T14:45:18.962596 #11192]  INFO -- : [C] calling client.find to server 0.0.0.0:9939
+I, [2010-09-15T14:45:18.964417 #11190]  INFO -- : [S] in Proto::UserService#find
+I, [2010-09-15T14:45:18.965625 #11192]  INFO -- : Got client OK response
+I, [2010-09-15T14:45:18.965677 #11192]  INFO -- : user.guid = USER_GUID_1
+I, [2010-09-15T14:45:18.965707 #11192]  INFO -- : user.guid = USER_GUID_2
+I, [2010-09-15T14:45:18.965733 #11192]  INFO -- : user.guid = USER_GUID_3
+I, [2010-09-15T14:45:18.965766 #11192]  INFO -- : user.guid = USER_GUID_4
+I, [2010-09-15T14:45:18.965800 #11192]  INFO -- : user.guid = USER_GUID_5
+I, [2010-09-15T14:45:30.426676 #11200]  INFO -- : [C] setting up client request
+I, [2010-09-15T14:45:30.426791 #11200]  INFO -- : [C] calling client.find to server 0.0.0.0:9939
+I, [2010-09-15T14:45:30.428446 #11190]  INFO -- : [S] in Proto::UserService#find
+I, [2010-09-15T14:45:30.429211 #11200]  INFO -- : Got client OK response
+I, [2010-09-15T14:45:30.429263 #11200]  INFO -- : user.guid = USER_GUID_1
+I, [2010-09-15T14:45:30.429293 #11200]  INFO -- : user.guid = USER_GUID_2
+I, [2010-09-15T14:45:30.429320 #11200]  INFO -- : user.guid = USER_GUID_3
+I, [2010-09-15T14:45:30.429353 #11200]  INFO -- : user.guid = USER_GUID_4
+I, [2010-09-15T14:45:30.429383 #11200]  INFO -- : user.guid = USER_GUID_5
+I, [2010-09-15T14:48:02.338126 #11274]  INFO -- : [C] setting up client request
+I, [2010-09-15T14:48:02.338240 #11274]  INFO -- : [C] calling client.find to server 0.0.0.0:9939
+I, [2010-09-15T14:48:02.339678 #11190]  INFO -- : [S] in Proto::UserService#find
+I, [2010-09-15T14:48:02.351438 #11274]  INFO -- : Got client OK response
+I, [2010-09-15T14:48:02.351553 #11274]  INFO -- : user.guid = USER_GUID_1
+I, [2010-09-15T14:48:02.351593 #11274]  INFO -- : user.guid = USER_GUID_2
+I, [2010-09-15T14:48:02.351625 #11274]  INFO -- : user.guid = USER_GUID_3
+I, [2010-09-15T14:48:02.351660 #11274]  INFO -- : user.guid = USER_GUID_4
+I, [2010-09-15T14:48:02.351693 #11274]  INFO -- : user.guid = USER_GUID_5
