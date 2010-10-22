@@ -1,3 +1,4 @@
+require 'eventmachine'
 require './logger'
 require 'eventmachine'
 require 'protobuf/rpc/server'

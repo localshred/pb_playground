@@ -4,7 +4,11 @@ require './logger'
 
 module Proto
 	class UserService
+<<<<<<< HEAD
 	  located_at 'localhost:9939'
+=======
+	  located_at '0.0.0.0:9939'
+>>>>>>> 833993ece1f53db0aa36c70d92c5cd8580db4dd9
 	
 		# request -> Proto::UserFindRequest
 		# response -> Proto::UserList
