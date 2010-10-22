@@ -176,3 +176,11 @@ I, [2010-09-15T02:15:25.307922 #34029]  INFO -- : after client find
 I, [2010-09-15T02:17:56.924988 #34090]  INFO -- : [C] setting up client
 I, [2010-09-15T02:17:56.925162 #34090]  INFO -- : [C] calling client.find
 I, [2010-09-15T02:17:56.929577 #34090]  INFO -- : after client find
+I, [2010-10-21T23:00:21.533275 #12453]  INFO -- : [S] Setting up server
+I, [2010-10-21T23:02:36.904480 #12559]  INFO -- : [S] Setting up server
+I, [2010-10-21T23:02:47.409641 #12567]  INFO -- : [C] setting up client
+I, [2010-10-21T23:02:47.409794 #12567]  INFO -- : [C] calling client.find
+E, [2010-10-21T23:02:47.409876 #12567] ERROR -- : undefined method `call' for Protobuf::Rpc::Client:Class
+E, [2010-10-21T23:02:47.409915 #12567] ERROR -- : /code/src/ruby_protobuf/lib/protobuf/rpc/service.rb:54:in `client'
+user_client.rb:19:in `<main>'
+I, [2010-10-21T23:02:47.409947 #12567]  INFO -- : after client find

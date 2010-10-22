@@ -21,7 +21,7 @@ module Proto
 		# response -> Proto::User
 		def create
 			$logger.info '[S] in Proto::UserService#create'
-			# TODO: implement create
+      # rpc_failed 'not implemented'
 		end
 	
 	end
