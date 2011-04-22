@@ -1,12 +1,16 @@
 require 'eventmachine'
 require './logger'
-require 'eventmachine'
 require 'protobuf/rpc/server'
+require 'protobuf/common/logger'
 require './user_service'
 
-$logger.info '[S] Setting up server'
+$logger.debug '[S] Setting up server 1'
+Protobuf::Logger.configure :file => STDOUT, :level => ::Logger::INFO
+
+trap("INT") { $logger.info '[S] Server 1 shutting down'; EM.stop_event_loop }
 
 EM.run do
-	EM.add_periodic_timer(20) { puts '.' }
+  $logger.debug '[S] starting'
 	EM.start_server '127.0.0.1', 9939, Protobuf::Rpc::Server
+  $logger.debug '[S] after start'
 end

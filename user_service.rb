@@ -1,30 +1,40 @@
 require './proto/user.pb'
 require './proto/user_service'
+require './client_service'
 require './logger'
 
 module Proto
 	class UserService
-<<<<<<< HEAD
-	  located_at 'localhost:9939'
-=======
-	  located_at '0.0.0.0:9939'
->>>>>>> 833993ece1f53db0aa36c70d92c5cd8580db4dd9
+	  located_at '127.0.0.1:9939'
 	
 		# request -> Proto::UserFindRequest
 		# response -> Proto::UserList
 		def find
-			$logger.info '[S] in Proto::UserService#find'
-			response.users = request.guids.map do |guid|
-				Proto::User.new.tap do |user|
-					user.guid = guid
-				end
-			end
+		  self.async_responder = true
+			$logger.debug '[S] in Proto::UserService#find'
+			$logger.debug '[S] calling client service find'
+		  Proto::ClientService.client(async: true).find(request) do |c|
+        c.on_success do |s|
+          $logger.debug '[S] in client.on_success for ClientService#find = %s' % s.inspect
+    			response.users = request.guids.map do |guid|
+    				Proto::User.new.tap do |user|
+    					user.guid = guid
+    				end
+    			end
+    			send_response
+        end
+        
+        c.on_failure do |e|
+          $logger.debug '[S] in client.on_failure for ClientService#find = %s' % e.inspect
+          rpc_failed e
+        end
+	    end
 		end
 	
 		# request -> Proto::User
 		# response -> Proto::User
 		def create
-			$logger.info '[S] in Proto::UserService#create'
+			$logger.debug '[S] in Proto::UserService#create'
       # rpc_failed 'not implemented'
 		end
 	
